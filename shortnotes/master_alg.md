@@ -10,5 +10,5 @@
 
 The running time can be shown to be:
 * T(n) = O(n^d logn) &emsp; (case 1) if a = b^d
-* T(n) = O(n^d) &emsp;&emsp;&emsp; (case 2) if a < b^d
+* T(n) = O(n^d) &emsp;&emsp;&emsp;&nmsp;(case 2) if a < b^d
 * T(n) = O(n^{log_b a}) (case 3) if a > b^d
