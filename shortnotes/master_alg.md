@@ -9,6 +9,6 @@
 * (a,b,c are independt of n)
 
 The running time can be shown to be:
-* T(n) = O(n^d logn) &nbsp;&nbsp; &nbsp; &nbsp; (case 1) if a = b^d
-* T(n) = O(n^d) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (case 2) if a < b^d
+* T(n) = O(n^d logn) &emsp; (case 1) if a = b^d
+* T(n) = O(n^d) &emsp; (case 2) if a < b^d
 * T(n) = O(n^{log_b a}) (case 3) if a > b^d
