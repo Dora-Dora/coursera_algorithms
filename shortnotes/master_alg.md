@@ -17,6 +17,8 @@ The running time can be shown to be:
 Note that the coefficients
 * a = rate of subproblem proliferation (RSP) -> more problem as we go down the recursion tree
 * b^d = rate of work shrinkage (RWS) per subproblem -> do less work as we go down the recursion tree
+And at each level of the recursion tree, the upper bound of runtime is
+<p style="text-align: center;"> cn^d (a/(b^d))^j </p>
 So the intuition of the running time for the 3 cases
 * RSP = RWS -> same amount of work each level (e.g. Merge sort) -> O(n^d logn)
 * RSP < RWS -> less work as we go down the recursion tree -> O(n^d)
