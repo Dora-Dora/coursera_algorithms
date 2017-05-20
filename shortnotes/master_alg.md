@@ -23,4 +23,4 @@ And at each level of the recursion tree, the upper bound of runtime is
 So the intuition of the running time for the 3 cases
 * RSP = RWS -> same amount of work each level (e.g. Merge sort) -> O(n^d logn)
 * RSP < RWS -> less work as we go down the recursion tree -> O(n^d)
-* RSP > RWS -> more work as we go down the revursion tree -> O(# of leaves)
+* RSP > RWS -> more work as we go down the revursion tree -> O(# of leaves = a^{log_b n} = n^{log_b a})
